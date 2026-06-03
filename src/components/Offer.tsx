@@ -1,20 +1,20 @@
 const groups = [
   {
-    age: "U8 – U10",
+    age: "6 – 8 lat",
     title: "Maluchy",
     desc: "Wprowadzenie do piłki nożnej poprzez zabawę. Nauka podstawowych elementów technicznych, koordynacji i ruchu z piłką.",
     days: "Wtorek & Czwartek",
     time: "16:00 – 17:00",
   },
   {
-    age: "U11 – U13",
+    age: "9 – 11 lat",
     title: "Juniorzy",
     desc: "Rozbudowa techniki indywidualnej, wprowadzenie taktyki grupowej, pierwsze turnieje i mecze. Intensywniejsza praca.",
     days: "Poniedziałek & Środa",
     time: "17:00 – 18:30",
   },
   {
-    age: "U14 – U16",
+    age: "12 – 14 lat",
     title: "Seniorzy Młodzikowi",
     desc: "Zaawansowane ćwiczenia taktyczne, analiza wideo, przygotowanie motoryczne i mentalne. Skupienie na meczu.",
     days: "Wtorek, Czwartek & Sobota",

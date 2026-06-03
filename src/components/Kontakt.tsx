@@ -67,7 +67,8 @@ export default function Kontakt() {
                 </div>
                 <div>
                   <p className="text-xs font-medium uppercase tracking-wider text-zinc-600">Boisko</p>
-                  <p className="font-semibold text-white">ul. Sportowa 1, Twoje Miasto</p>
+                  <p className="font-semibold text-white">ul. Przasnyska 18A, Warszawa</p>
+                  <p className="text-sm text-zinc-500">Orlik przy SP nr 92 im. Jana Brzechwy</p>
                 </div>
               </div>
             </div>
