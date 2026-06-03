@@ -1,8 +1,19 @@
 const stats = [
-  { value: "10+", label: "lat doświadczenia" },
-  { value: "200+", label: "wychowanków" },
-  { value: "3", label: "grupy wiekowe" },
-  { value: "UEFA B", label: "licencja trenerska" },
+  { value: "10+", label: "lat kariery" },
+  { value: "U19", label: "Reprezentacja Polski" },
+  { value: "8", label: "klubów" },
+  { value: "6+", label: "lat od" },
+];
+
+const clubs = [
+  "Białe Orły W.",
+  "Talent Warszawa",
+  "Hutnik Warszawa",
+  "Orzeł Baniocha",
+  "Ursus Warszawa",
+  "Victoria Sulejówek",
+  "Widzew Łódź",
+  "Bzura Chodaków",
 ];
 
 export default function About() {
@@ -34,15 +45,16 @@ export default function About() {
               miłość do treningu
             </h2>
             <p className="mt-6 text-lg leading-relaxed text-zinc-400">
-              Jestem licencjonowanym trenerem piłki nożnej z wieloletnim
-              doświadczeniem w pracy z dziećmi i młodzieżą. Moim celem jest
-              nie tylko nauka techniki, ale przede wszystkim budowanie
-              pewności siebie, pracy zespołowej i zdrowych nawyków sportowych.
+              Aktywny zawodnik z ponad 10-letnim stażem w polskim futbolu.
+              Grałem m.in. w <span className="text-white font-medium">Widzewie Łódź</span> i{" "}
+              <span className="text-white font-medium">Hutniku Warszawa</span>, a swój
+              potencjał potwierdziłem powołaniami do{" "}
+              <span className="text-white font-medium">Reprezentacji Polski U18 i U19</span>.
             </p>
             <p className="mt-4 text-lg leading-relaxed text-zinc-400">
-              Każde dziecko traktuję indywidualnie — dostosowuję metody pracy
-              do jego tempa rozwoju i predyspozycji. Treningi są wymagające,
-              ale przede wszystkim — fun!
+              Boiskowe doświadczenie przekładam bezpośrednio na pracę z dziećmi
+              i młodzieżą. Wiem, czego wymaga droga na wyższy poziom — i dokładnie
+              tego uczę na każdym treningu.
             </p>
 
             <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
@@ -52,6 +64,17 @@ export default function About() {
                   <p className="mt-1 text-xs font-medium text-zinc-500">{label}</p>
                 </div>
               ))}
+            </div>
+
+            <div className="mt-8">
+              <p className="text-xs font-semibold uppercase tracking-widest text-zinc-600 mb-3">Kariera zawodnicza</p>
+              <div className="flex flex-wrap gap-2">
+                {clubs.map((club) => (
+                  <span key={club} className="rounded-full border border-zinc-800 bg-zinc-900 px-3 py-1 text-xs text-zinc-400">
+                    {club}
+                  </span>
+                ))}
+              </div>
             </div>
           </div>
         </div>
