@@ -1,5 +1,3 @@
-import ParallaxBall from "@/components/ParallaxBall";
-
 export default function Hero() {
   return (
     <section
@@ -7,7 +5,6 @@ export default function Hero() {
       className="relative flex min-h-screen items-center justify-center bg-black px-6 pt-20"
     >
       <div className="absolute inset-0 bg-[url('/hero-bg.jpg')] bg-cover bg-center opacity-15" />
-      <ParallaxBall />
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/80" />
       <div className="relative z-10 mx-auto max-w-4xl text-center">
         <span className="mb-4 inline-block rounded-full border border-zinc-700 bg-zinc-900/80 px-4 py-1 text-sm font-medium text-zinc-400">
