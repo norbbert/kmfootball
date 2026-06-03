@@ -35,7 +35,7 @@ export default function Image() {
             display: "flex",
           }}
         >
-          Trener Krzysztof Możdzonek
+          Trener Krzysztof Możdżonek
         </div>
       </div>
     ),

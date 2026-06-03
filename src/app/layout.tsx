@@ -9,20 +9,20 @@ const geist = Geist({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://kmfootball.pl"),
-  title: "KMFootball – Szkółka Piłkarska | Trener Krzysztof Możdzonek",
+  title: "KMFootball – Szkółka Piłkarska | Trener Krzysztof Możdżonek",
   description:
-    "Profesjonalna szkółka piłkarska dla dzieci i młodzieży w Warszawie. Treningi prowadzi Krzysztof Możdzonek – były zawodnik m.in. Widzewa Łódź i reprezentant Polski U18/U19.",
+    "Profesjonalna szkółka piłkarska dla dzieci i młodzieży w Warszawie. Treningi prowadzi Krzysztof Możdżonek – były zawodnik m.in. Widzewa Łódź i reprezentant Polski U18/U19.",
   keywords: [
     "szkółka piłkarska Warszawa",
     "treningi piłki nożnej dzieci",
     "trener piłki nożnej Warszawa",
     "KMFootball",
-    "Krzysztof Możdzonek",
+    "Krzysztof Możdżonek",
   ],
   openGraph: {
     title: "KMFootball – Szkółka Piłkarska w Warszawie",
     description:
-      "Profesjonalne treningi piłki nożnej dla dzieci i młodzieży. Prowadzi Krzysztof Możdzonek – były zawodnik Widzewa Łódź i reprezentant Polski U18/U19.",
+      "Profesjonalne treningi piłki nożnej dla dzieci i młodzieży. Prowadzi Krzysztof Możdżonek – były zawodnik Widzewa Łódź i reprezentant Polski U18/U19.",
     url: "https://kmfootball.pl",
     siteName: "KMFootball",
     locale: "pl_PL",
@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "KMFootball – Szkółka Piłkarska w Warszawie",
     description:
-      "Profesjonalne treningi piłki nożnej dla dzieci i młodzieży. Prowadzi Krzysztof Możdzonek.",
+      "Profesjonalne treningi piłki nożnej dla dzieci i młodzieży. Prowadzi Krzysztof Możdżonek.",
   },
 };
 
