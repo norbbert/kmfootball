@@ -2,7 +2,6 @@ const stats = [
   { value: "10+", label: "lat kariery" },
   { value: "U19", label: "Reprezentacja Polski" },
   { value: "8", label: "klubów" },
-  { value: "6+", label: "lat od" },
 ];
 
 const clubs = [
