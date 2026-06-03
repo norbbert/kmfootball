@@ -92,15 +92,18 @@ export default function Kontakt() {
             </div>
           </div>
 
-          <div className="overflow-hidden rounded-3xl border border-zinc-800 bg-zinc-900 lg:h-auto">
-            <div className="flex h-full min-h-64 items-center justify-center text-zinc-700">
-              <div className="text-center">
-                <svg xmlns="http://www.w3.org/2000/svg" className="mx-auto h-16 w-16 opacity-20" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-                </svg>
-                <p className="mt-2 text-sm text-zinc-600">Mapa / Zdjęcie boiska</p>
-              </div>
-            </div>
+          <div className="overflow-hidden rounded-3xl border border-zinc-800 lg:h-auto min-h-80">
+            <iframe
+              src="https://www.google.com/maps?q=ul.+Przasnyska+18A,+Warszawa&output=embed"
+              width="100%"
+              height="100%"
+              className="min-h-80 w-full"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="Lokalizacja boiska"
+            />
           </div>
         </div>
       </div>
