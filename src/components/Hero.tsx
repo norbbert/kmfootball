@@ -13,7 +13,7 @@ export default function Hero() {
         <h1 className="mt-4 text-5xl font-extrabold leading-tight tracking-tight text-white md:text-7xl">
           Rozwijaj swój
           <br />
-          <span className="text-amber-400">talent</span>
+          <span className="text-gold-gradient">talent</span>
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-zinc-400 md:text-xl">
           Profesjonalne treningi dla dzieci i młodzieży. Budujemy fundamenty
@@ -23,7 +23,7 @@ export default function Hero() {
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">
           <a
             href="#zapisy"
-            className="rounded-full bg-amber-400 px-8 py-4 text-base font-bold text-black shadow-lg transition-all hover:bg-amber-300"
+            className="rounded-full bg-gold-gradient px-8 py-4 text-base font-bold text-black shadow-lg transition-opacity hover:opacity-90"
           >
             Zapisz dziecko
           </a>

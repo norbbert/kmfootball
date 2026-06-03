@@ -25,7 +25,7 @@ export default function Kontakt() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="grid gap-16 lg:grid-cols-2">
           <div>
-            <span className="text-sm font-semibold uppercase tracking-widest text-amber-400">
+            <span className="text-sm font-semibold uppercase tracking-widest text-gold">
               Kontakt
             </span>
             <h2 className="mt-3 text-4xl font-extrabold text-white md:text-5xl">
@@ -38,7 +38,7 @@ export default function Kontakt() {
 
             <div className="mt-10 space-y-6">
               <a href="tel:+48604280706" className="flex items-center gap-4 group">
-                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-zinc-900 border border-zinc-800 text-zinc-400 transition-all group-hover:border-amber-400/30 group-hover:bg-amber-400/10 group-hover:text-amber-400">
+                <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-zinc-900 border border-zinc-800 text-zinc-400 transition-all group-hover:border-gold/30 group-hover:bg-gold/10 group-hover:text-gold">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                   </svg>
@@ -74,7 +74,7 @@ export default function Kontakt() {
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={name}
-                    className="flex h-10 w-10 items-center justify-center rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-500 transition-all hover:border-amber-400/30 hover:bg-amber-400/10 hover:text-amber-400"
+                    className="flex h-10 w-10 items-center justify-center rounded-xl bg-zinc-900 border border-zinc-800 text-zinc-500 transition-all hover:border-gold/30 hover:bg-gold/10 hover:text-gold"
                   >
                     {icon}
                   </a>

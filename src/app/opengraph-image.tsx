@@ -17,12 +17,12 @@ export default function Image() {
           alignItems: "center",
           background: "#000000",
           backgroundImage:
-            "radial-gradient(circle at 75% 30%, rgba(251,191,36,0.12) 0%, transparent 55%)",
+            "radial-gradient(circle at 75% 30%, rgba(212,175,55,0.14) 0%, transparent 55%)",
         }}
       >
         <div style={{ display: "flex", fontSize: 96, fontWeight: 800, letterSpacing: "-0.03em" }}>
           <span style={{ color: "#ffffff" }}>KM</span>
-          <span style={{ color: "#fbbf24" }}>Football</span>
+          <span style={{ color: "#d4af37" }}>Football</span>
         </div>
         <div style={{ marginTop: 16, fontSize: 40, color: "#a1a1aa", fontWeight: 500 }}>
           Szkółka Piłkarska · Warszawa

@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="flex flex-col items-center justify-between gap-4 sm:flex-row">
           <p className="text-lg font-bold text-white">
-            KM<span className="text-amber-400">Football</span>
+            KM<span className="text-gold-gradient">Football</span>
           </p>
           <p className="text-sm text-zinc-600">
             © {new Date().getFullYear()} KMFootball. Wszelkie prawa zastrzeżone.

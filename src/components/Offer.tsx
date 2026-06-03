@@ -45,7 +45,7 @@ export default function Offer() {
     <section id="oferta" className="bg-black py-24">
       <div className="mx-auto max-w-6xl px-6">
         <div className="text-center">
-          <span className="text-sm font-semibold uppercase tracking-widest text-amber-400">
+          <span className="text-sm font-semibold uppercase tracking-widest text-gold">
             Treningi
           </span>
           <h2 className="mt-3 text-4xl font-extrabold text-white md:text-5xl">
@@ -61,14 +61,14 @@ export default function Offer() {
         <div className="mt-16 grid gap-6 lg:grid-cols-5">
           {/* Co ćwiczymy */}
           <div className="rounded-3xl border border-zinc-800 bg-zinc-900 p-8 lg:col-span-3">
-            <span className="inline-block rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-xs font-semibold text-amber-400">
+            <span className="inline-block rounded-full border border-gold/30 bg-gold/10 px-3 py-1 text-xs font-semibold text-gold">
               6+ lat
             </span>
             <h3 className="mt-4 text-2xl font-bold text-white">Co ćwiczymy na treningach</h3>
             <ul className="mt-6 space-y-3">
               {training.map((item) => (
                 <li key={item} className="flex items-start gap-3 text-base text-zinc-300">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="mt-1 h-5 w-5 shrink-0 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                  <svg xmlns="http://www.w3.org/2000/svg" className="mt-1 h-5 w-5 shrink-0 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
                     <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
                   </svg>
                   {item}
@@ -77,7 +77,7 @@ export default function Offer() {
             </ul>
             <a
               href="#zapisy"
-              className="mt-8 inline-block rounded-full bg-amber-400 px-8 py-3 text-sm font-semibold text-black transition-colors hover:bg-amber-300"
+              className="mt-8 inline-block rounded-full bg-gold-gradient px-8 py-3 text-sm font-semibold text-black transition-opacity hover:opacity-90"
             >
               Zapisz dziecko
             </a>
@@ -87,7 +87,7 @@ export default function Offer() {
           <div className="grid gap-4 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-1">
             {facts.map((f) => (
               <div key={f.label} className="flex items-center gap-4 rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
-                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-amber-400/10 text-amber-400">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-gold/10 text-gold">
                   <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                     {f.icon}
                   </svg>

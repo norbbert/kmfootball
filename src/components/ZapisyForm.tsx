@@ -21,7 +21,7 @@ export default function ZapisyForm() {
     <section id="zapisy" className="bg-black py-24">
       <div className="mx-auto max-w-5xl px-6">
         <div className="text-center">
-          <span className="text-sm font-semibold uppercase tracking-widest text-amber-400">
+          <span className="text-sm font-semibold uppercase tracking-widest text-gold">
             Dołącz do nas
           </span>
           <h2 className="mt-3 text-4xl font-extrabold text-white md:text-5xl">
@@ -49,7 +49,7 @@ export default function ZapisyForm() {
         <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <a
             href="tel:+48604280706"
-            className="flex items-center gap-3 rounded-full bg-amber-400 px-8 py-4 text-base font-bold text-black shadow-lg transition-all hover:bg-amber-300"
+            className="flex items-center gap-3 rounded-full bg-gold-gradient px-8 py-4 text-base font-bold text-black shadow-lg transition-opacity hover:opacity-90"
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
               <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />

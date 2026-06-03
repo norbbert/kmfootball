@@ -10,7 +10,7 @@ export default function VideoGallery() {
     <section id="galeria" className="bg-zinc-950 py-24">
       <div className="mx-auto max-w-6xl px-6">
         <div className="text-center">
-          <span className="text-sm font-semibold uppercase tracking-widest text-amber-400">
+          <span className="text-sm font-semibold uppercase tracking-widest text-gold">
             Galeria
           </span>
           <h2 className="mt-3 text-4xl font-extrabold text-white md:text-5xl">

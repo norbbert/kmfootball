@@ -17,7 +17,7 @@ export default function Navbar() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-black/95 backdrop-blur-sm border-b border-zinc-800">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <a href="#" className="text-xl font-bold tracking-tight text-white">
-          KM<span className="text-amber-400">Football</span>
+          KM<span className="text-gold-gradient">Football</span>
         </a>
 
         {/* Desktop nav */}
@@ -36,7 +36,7 @@ export default function Navbar() {
 
         <a
           href="#zapisy"
-          className="hidden rounded-full bg-amber-400 px-5 py-2 text-sm font-semibold text-black transition-colors hover:bg-amber-300 md:block"
+          className="hidden rounded-full bg-gold-gradient px-5 py-2 text-sm font-semibold text-black transition-opacity hover:opacity-90 md:block"
         >
           Zapisz się
         </a>
@@ -79,7 +79,7 @@ export default function Navbar() {
               <a
                 href="#zapisy"
                 onClick={() => setOpen(false)}
-                className="mt-2 block rounded-full bg-amber-400 px-5 py-3 text-center text-sm font-semibold text-black transition-colors hover:bg-amber-300"
+                className="mt-2 block rounded-full bg-gold-gradient px-5 py-3 text-center text-sm font-semibold text-black transition-opacity hover:opacity-90"
               >
                 Zapisz się
               </a>

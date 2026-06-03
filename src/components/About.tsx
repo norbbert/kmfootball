@@ -36,7 +36,7 @@ export default function About() {
           </div>
 
           <div>
-            <span className="text-sm font-semibold uppercase tracking-widest text-amber-400">
+            <span className="text-sm font-semibold uppercase tracking-widest text-gold">
               O mnie
             </span>
             <h2 className="mt-3 text-4xl font-extrabold text-white md:text-5xl">
@@ -60,7 +60,7 @@ export default function About() {
             <div className="mt-10 grid grid-cols-2 gap-4 sm:grid-cols-4 lg:grid-cols-2 xl:grid-cols-4">
               {stats.map(({ value, label }) => (
                 <div key={label} className="rounded-2xl bg-zinc-900 border border-zinc-800 p-4 text-center">
-                  <p className="text-2xl font-extrabold text-amber-400">{value}</p>
+                  <p className="text-2xl font-extrabold text-gold-gradient">{value}</p>
                   <p className="mt-1 text-xs font-medium text-zinc-500">{label}</p>
                 </div>
               ))}
