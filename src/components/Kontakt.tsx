@@ -94,14 +94,12 @@ export default function Kontakt() {
 
           <div className="overflow-hidden rounded-3xl border border-zinc-800 lg:h-auto min-h-80">
             <iframe
-              src="https://www.google.com/maps?q=ul.+Przasnyska+18A,+Warszawa&output=embed"
+              src="https://www.openstreetmap.org/export/embed.html?bbox=20.946%2C52.256%2C20.966%2C52.276&layer=mapnik&marker=52.266%2C20.956"
               width="100%"
               height="100%"
               className="min-h-80 w-full"
               style={{ border: 0 }}
-              allowFullScreen
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
               title="Lokalizacja boiska"
             />
           </div>
