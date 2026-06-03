@@ -1,24 +1,42 @@
-const groups = [
+const training = [
+  "Technika indywidualna – prowadzenie, podania, przyjęcia, strzał",
+  "Koordynacja ruchowa i praca z piłką",
+  "Podstawy taktyki i gry zespołowej",
+  "Rozwój przez zabawę i pozytywną rywalizację",
+  "Budowanie pewności siebie i nawyków sportowych",
+];
+
+const facts = [
   {
-    age: "6 – 8 lat",
-    title: "Maluchy",
-    desc: "Wprowadzenie do piłki nożnej poprzez zabawę. Nauka podstawowych elementów technicznych, koordynacji i ruchu z piłką.",
-    days: "Wtorek & Czwartek",
-    time: "16:00 – 17:00",
+    label: "Wiek",
+    value: "od 6 lat",
+    icon: (
+      <path strokeLinecap="round" strokeLinejoin="round" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+    ),
   },
   {
-    age: "9 – 11 lat",
-    title: "Juniorzy",
-    desc: "Rozbudowa techniki indywidualnej, wprowadzenie taktyki grupowej, pierwsze turnieje i mecze. Intensywniejsza praca.",
-    days: "Poniedziałek & Środa",
-    time: "17:00 – 18:30",
+    label: "Miejsce",
+    value: "Orlik, ul. Przasnyska 18A",
+    icon: (
+      <>
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+        <path strokeLinecap="round" strokeLinejoin="round" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+      </>
+    ),
   },
   {
-    age: "12 – 14 lat",
-    title: "Seniorzy Młodzikowi",
-    desc: "Zaawansowane ćwiczenia taktyczne, analiza wideo, przygotowanie motoryczne i mentalne. Skupienie na meczu.",
-    days: "Wtorek, Czwartek & Sobota",
-    time: "18:30 – 20:00",
+    label: "Harmonogram",
+    value: "ustalany indywidualnie",
+    icon: (
+      <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+    ),
+  },
+  {
+    label: "Trening próbny",
+    value: "bezpłatny, bez zobowiązań",
+    icon: (
+      <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+    ),
   },
 ];
 
@@ -28,50 +46,59 @@ export default function Offer() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="text-center">
           <span className="text-sm font-semibold uppercase tracking-widest text-amber-400">
-            Grupy treningowe
+            Treningi
           </span>
           <h2 className="mt-3 text-4xl font-extrabold text-white md:text-5xl">
-            Znajdź grupę dla siebie
+            Zajęcia dla dzieci od 6 lat
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-zinc-400">
-            Każda grupa to dopasowany program treningowy, dostosowany do wieku
-            i poziomu zaawansowania zawodników.
+            Jedna grupa, indywidualne podejście do każdego zawodnika. Program
+            dopasowany do wieku i poziomu — od pierwszych kroków z piłką po
+            zaawansowaną technikę.
           </p>
         </div>
 
-        <div className="mt-16 grid gap-6 md:grid-cols-3">
-          {groups.map((g) => (
-            <div
-              key={g.age}
-              className="rounded-3xl border border-zinc-800 bg-zinc-900 p-8 transition-all hover:border-amber-400/30 hover:shadow-lg hover:shadow-amber-400/5"
+        <div className="mt-16 grid gap-6 lg:grid-cols-5">
+          {/* Co ćwiczymy */}
+          <div className="rounded-3xl border border-zinc-800 bg-zinc-900 p-8 lg:col-span-3">
+            <span className="inline-block rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-xs font-semibold text-amber-400">
+              6+ lat
+            </span>
+            <h3 className="mt-4 text-2xl font-bold text-white">Co ćwiczymy na treningach</h3>
+            <ul className="mt-6 space-y-3">
+              {training.map((item) => (
+                <li key={item} className="flex items-start gap-3 text-base text-zinc-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="mt-1 h-5 w-5 shrink-0 text-amber-400" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 13l4 4L19 7" />
+                  </svg>
+                  {item}
+                </li>
+              ))}
+            </ul>
+            <a
+              href="#zapisy"
+              className="mt-8 inline-block rounded-full bg-amber-400 px-8 py-3 text-sm font-semibold text-black transition-colors hover:bg-amber-300"
             >
-              <span className="inline-block rounded-full border border-amber-400/30 bg-amber-400/10 px-3 py-1 text-xs font-semibold text-amber-400">
-                {g.age}
-              </span>
-              <h3 className="mt-4 text-2xl font-bold text-white">{g.title}</h3>
-              <p className="mt-3 text-base leading-relaxed text-zinc-400">{g.desc}</p>
-              <div className="mt-6 space-y-2 border-t border-zinc-800 pt-6">
-                <div className="flex items-center gap-2 text-sm text-zinc-500">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 shrink-0 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
+              Zapisz dziecko
+            </a>
+          </div>
+
+          {/* Szybkie fakty */}
+          <div className="grid gap-4 sm:grid-cols-2 lg:col-span-2 lg:grid-cols-1">
+            {facts.map((f) => (
+              <div key={f.label} className="flex items-center gap-4 rounded-2xl border border-zinc-800 bg-zinc-900 p-5">
+                <div className="flex h-11 w-11 shrink-0 items-center justify-center rounded-xl bg-amber-400/10 text-amber-400">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    {f.icon}
                   </svg>
-                  {g.days}
                 </div>
-                <div className="flex items-center gap-2 text-sm text-zinc-500">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 shrink-0 text-zinc-600" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                  </svg>
-                  {g.time}
+                <div>
+                  <p className="text-xs font-medium uppercase tracking-wider text-zinc-600">{f.label}</p>
+                  <p className="font-semibold text-white">{f.value}</p>
                 </div>
               </div>
-              <a
-                href="#zapisy"
-                className="mt-6 block w-full rounded-full bg-zinc-800 py-3 text-center text-sm font-semibold text-white transition-all hover:bg-amber-400 hover:text-black"
-              >
-                Zapisz się
-              </a>
-            </div>
-          ))}
+            ))}
+          </div>
         </div>
       </div>
     </section>
