@@ -13,6 +13,7 @@ const clubs = [
   "Victoria Sulejówek",
   "Widzew Łódź",
   "Bzura Chodaków",
+  "MKS Polonia Warszawa",
 ];
 
 export default function About() {
