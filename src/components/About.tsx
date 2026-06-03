@@ -31,7 +31,7 @@ export default function About() {
             </div>
             <div className="absolute -bottom-6 -right-6 rounded-2xl bg-zinc-900 border border-zinc-800 p-6 shadow-xl">
               <p className="text-sm font-medium text-zinc-500">Trener</p>
-              <p className="mt-1 text-xl font-bold text-white">KMFootball</p>
+              <p className="mt-1 text-xl font-bold text-white">Krzysztof Możdzonek</p>
             </div>
           </div>
 
