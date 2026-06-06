@@ -7,10 +7,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-[url('/img/zespol.jpg')] bg-cover bg-center opacity-20" />
       <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-transparent to-black/80" />
       <div className="relative z-10 mx-auto max-w-4xl text-center">
-        <span className="mb-4 inline-block rounded-full border border-zinc-700 bg-zinc-900/80 px-4 py-1 text-sm font-medium text-zinc-400">
-          Szkółka Piłkarska KMFootball
-        </span>
-        <h1 className="mt-4 text-5xl font-extrabold leading-tight tracking-tight text-white md:text-7xl">
+        <h1 className="text-5xl font-extrabold leading-tight tracking-tight text-white md:text-7xl">
           Rozwijaj swój
           <br />
           <span className="text-gold-gradient">talent</span>
