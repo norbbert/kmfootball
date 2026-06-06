@@ -1,8 +1,8 @@
 const videos = [
-  { id: "dQw4w9WgXcQ", title: "Trening techniczny – rocznik 2017" },
-  { id: "dQw4w9WgXcQ", title: "Mecz pokazowy – U12" },
-  { id: "dQw4w9WgXcQ", title: "Ćwiczenia z piłką – maluchy" },
-  { id: "dQw4w9WgXcQ", title: "Turniej letni 2024" },
+  { src: "/video/trening-1.mp4", poster: "/video/trening-1.jpg", title: "Slalom z piłką" },
+  { src: "/video/trening-2.mp4", poster: "/video/trening-2.jpg", title: "Drybling między pachołkami" },
+  { src: "/video/trening-3.mp4", poster: "/video/trening-3.jpg", title: "Strzały na bramkę" },
+  { src: "/video/trening-4.mp4", poster: "/video/trening-4.jpg", title: "Prowadzenie piłki" },
 ];
 
 export default function VideoGallery() {
@@ -17,19 +17,21 @@ export default function VideoGallery() {
             Zajrzyj na nasze treningi
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-zinc-400">
-            Nagrania z zajęć, turniejów i codziennej pracy na boisku.
+            Surowe nagrania z zajęć — prawdziwa atmosfera boiska, dzieciaki w akcji.
+            Włącz dźwięk i poczuj klimat treningu.
           </p>
         </div>
 
-        <div className="mt-16 grid gap-6 sm:grid-cols-2">
-          {videos.map((video, i) => (
-            <div key={i} className="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900">
-              <div className="relative aspect-video">
-                <iframe
-                  src={`https://www.youtube.com/embed/${video.id}`}
-                  title={video.title}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                  allowFullScreen
+        <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {videos.map((video) => (
+            <div key={video.src} className="overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-900">
+              <div className="relative aspect-[9/16] bg-black">
+                <video
+                  src={video.src}
+                  poster={video.poster}
+                  controls
+                  preload="none"
+                  playsInline
                   className="absolute inset-0 h-full w-full"
                 />
               </div>

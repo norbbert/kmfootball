@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const stats = [
   { value: "10+", label: "lat kariery" },
   { value: "U19", label: "Reprezentacja Polski" },
@@ -23,11 +25,14 @@ export default function About() {
         <div className="grid items-center gap-16 lg:grid-cols-2">
           <div className="relative">
             <div className="aspect-[4/5] overflow-hidden rounded-3xl bg-zinc-900 border border-zinc-800">
-              <div className="flex h-full items-center justify-center text-zinc-700">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-32 w-32 opacity-30" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
-              </div>
+              <Image
+                src="/img/trener.jpg"
+                alt="Krzysztof Możdżonek — trener KMFootball"
+                width={1000}
+                height={1250}
+                className="h-full w-full object-cover object-top"
+                priority
+              />
             </div>
             <div className="absolute -bottom-6 -right-6 rounded-2xl bg-zinc-900 border border-zinc-800 p-6 shadow-xl">
               <p className="text-sm font-medium text-zinc-500">Trener</p>

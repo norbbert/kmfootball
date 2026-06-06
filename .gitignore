@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# surowe materiały źródłowe (raw MOV/HEIC od trenera — do public/ trafiają już zoptymalizowane)
+/Materiały video i zdjęcia/
+
 # typescript
 *.tsbuildinfo
 next-env.d.ts
