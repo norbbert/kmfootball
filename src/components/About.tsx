@@ -27,7 +27,7 @@ export default function About() {
             <div className="aspect-[4/5] overflow-hidden rounded-3xl bg-zinc-900 border border-zinc-800">
               <Image
                 src="/img/trener.jpg"
-                alt="Krzysztof Możdżonek — trener KMFootball"
+                alt="Krzysztof Możdżonek, trener KMFootball"
                 width={1000}
                 height={1250}
                 className="h-full w-full object-cover object-top"
@@ -58,7 +58,7 @@ export default function About() {
             </p>
             <p className="mt-4 text-lg leading-relaxed text-zinc-400">
               Boiskowe doświadczenie przekładam bezpośrednio na pracę z dziećmi
-              i młodzieżą. Wiem, czego wymaga droga na wyższy poziom — i dokładnie
+              i młodzieżą. Wiem, czego wymaga droga na wyższy poziom i właśnie
               tego uczę na każdym treningu.
             </p>
 
@@ -117,7 +117,7 @@ export default function About() {
           <div className="overflow-hidden rounded-2xl border border-zinc-800 shadow-xl">
             <Image
               src="/img/cert.jpeg"
-              alt="Licencja trenerska UEFA B — Krzysztof Możdżonek (PZPN)"
+              alt="Licencja trenerska UEFA B, Krzysztof Możdżonek (PZPN)"
               width={1206}
               height={728}
               className="w-full"

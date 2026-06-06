@@ -17,7 +17,7 @@ export default function Hero() {
         </h1>
         <p className="mt-6 text-lg leading-relaxed text-zinc-400 md:text-xl">
           Profesjonalne treningi dla dzieci i młodzieży. Budujemy fundamenty
-          techniki, taktyki i charakteru — z pasją i indywidualnym podejściem
+          techniki, taktyki i charakteru, z pasją i indywidualnym podejściem
           do każdego zawodnika.
         </p>
         <div className="mt-10 flex flex-col items-center gap-4 sm:flex-row sm:justify-center">

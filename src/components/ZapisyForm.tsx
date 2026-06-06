@@ -7,12 +7,12 @@ const steps = [
   {
     num: "2",
     title: "Trening próbny",
-    desc: "Zapraszam na bezpłatny trening próbny — bez zobowiązań. Dziecko sprawdza, czy to dla niego.",
+    desc: "Zapraszam na bezpłatny trening próbny, bez żadnych zobowiązań. Dziecko sprawdza, czy to dla niego.",
   },
   {
     num: "3",
     title: "Dołącz do drużyny",
-    desc: "Jeśli wszystko gra — witamy w szkółce! Ustalamy grupę, harmonogram i szczegóły.",
+    desc: "Jeśli wszystko gra, witamy w szkółce! Ustalamy grupę, harmonogram i szczegóły.",
   },
 ];
 

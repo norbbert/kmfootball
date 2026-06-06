@@ -1,5 +1,5 @@
 const training = [
-  "Technika indywidualna – prowadzenie, podania, przyjęcia, strzał",
+  "Technika indywidualna: prowadzenie, podania, przyjęcia, strzał",
   "Koordynacja ruchowa i praca z piłką",
   "Podstawy taktyki i gry zespołowej",
   "Rozwój przez zabawę i pozytywną rywalizację",
@@ -53,7 +53,7 @@ export default function Offer() {
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-zinc-400">
             Jedna grupa, indywidualne podejście do każdego zawodnika. Program
-            dopasowany do wieku i poziomu — od pierwszych kroków z piłką po
+            dopasowany do wieku i poziomu, od pierwszych kroków z piłką po
             zaawansowaną technikę.
           </p>
         </div>

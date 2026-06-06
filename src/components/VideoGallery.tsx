@@ -17,7 +17,7 @@ export default function VideoGallery() {
             Zajrzyj na nasze treningi
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-zinc-400">
-            Surowe nagrania z zajęć — prawdziwa atmosfera boiska, dzieciaki w akcji.
+            Surowe nagrania z zajęć. Prawdziwa atmosfera boiska, dzieciaki w akcji.
             Włącz dźwięk i poczuj klimat treningu.
           </p>
         </div>
