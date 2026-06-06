@@ -83,6 +83,47 @@ export default function About() {
             </div>
           </div>
         </div>
+
+        {/* Licencja UEFA B */}
+        <div className="mt-16 grid items-center gap-10 rounded-3xl border border-zinc-800 bg-zinc-900/40 p-8 md:grid-cols-2 md:p-12">
+          <div>
+            <span className="text-sm font-semibold uppercase tracking-widest text-gold">
+              Kwalifikacje
+            </span>
+            <h3 className="mt-3 text-3xl font-extrabold text-white md:text-4xl">
+              Licencjonowany trener UEFA B
+            </h3>
+            <p className="mt-4 text-lg leading-relaxed text-zinc-400">
+              Posiadam licencję trenerską{" "}
+              <span className="font-medium text-white">UEFA B</span> nadaną przez
+              Polski Związek Piłki Nożnej. To gwarancja profesjonalnego,
+              bezpiecznego i przemyślanego prowadzenia zajęć z dziećmi.
+            </p>
+            <ul className="mt-6 space-y-3">
+              {[
+                "Oficjalna licencja PZPN / UEFA",
+                "Metodyka pracy z dziećmi i młodzieżą",
+                "Licencja ważna do 2027 roku",
+              ].map((item) => (
+                <li key={item} className="flex items-center gap-3 text-base text-zinc-300">
+                  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 shrink-0 text-gold" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2.5}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                  {item}
+                </li>
+              ))}
+            </ul>
+          </div>
+          <div className="overflow-hidden rounded-2xl border border-zinc-800 shadow-xl">
+            <Image
+              src="/img/cert.jpeg"
+              alt="Licencja trenerska UEFA B — Krzysztof Możdżonek (PZPN)"
+              width={1206}
+              height={728}
+              className="w-full"
+            />
+          </div>
+        </div>
       </div>
     </section>
   );
